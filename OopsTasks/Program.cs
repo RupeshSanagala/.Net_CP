@@ -67,6 +67,15 @@ namespace OopsTasks
                 c4.Drive();
             }
 
+            //Animal.cs
+
+             Dog a = new Dog();
+             Console.WriteLine("Enter the Dog Name:");
+             string dogName = Console.ReadLine();
+             Console.WriteLine(dogName);
+ 
+             a.Eat();
+
         }
     }
 }
