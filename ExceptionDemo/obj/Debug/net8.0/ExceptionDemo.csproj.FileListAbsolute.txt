@@ -1,0 +1,14 @@
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\bin\Debug\net8.0\ExceptionDemo.exe
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\bin\Debug\net8.0\ExceptionDemo.deps.json
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\bin\Debug\net8.0\ExceptionDemo.runtimeconfig.json
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\bin\Debug\net8.0\ExceptionDemo.dll
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\bin\Debug\net8.0\ExceptionDemo.pdb
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.AssemblyInfoInputs.cache
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.AssemblyInfo.cs
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.csproj.CoreCompileInputs.cache
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.dll
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\refint\ExceptionDemo.dll
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.pdb
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ExceptionDemo.genruntimeconfig.cache
+C:\Users\rupesh.kumar\Desktop\.Net\ExceptionDemo\obj\Debug\net8.0\ref\ExceptionDemo.dll
