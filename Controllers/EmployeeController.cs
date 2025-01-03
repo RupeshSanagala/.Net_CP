@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using MyDemoApplication.Models;
 
-namespace MyDemoApplication.Models
+namespace MyDemoApplication.Controllers
 {
     public class EmployeeController : Controller
     {
@@ -9,7 +10,7 @@ namespace MyDemoApplication.Models
 
         public EmployeeController(CompanyContext cc)
         {
-            this.context = cc;
+            context = cc;
         }
         public IActionResult Index()
         {
@@ -19,12 +20,12 @@ namespace MyDemoApplication.Models
         public IActionResult Create()
         {
             List<SelectListItem> dept = new List<SelectListItem>();
-            dept = context.Department.Select(x=>new SelectListItem
+            dept = context.Department.Select(x => new SelectListItem
             {
                 Text = x.Name,
                 Value = x.Id.ToString()
             }).ToList();
-            ViewBag.Department=dept;
+            ViewBag.Department = dept;
             return View();
         }
     }
