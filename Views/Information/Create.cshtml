@@ -1,5 +1,21 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Create Information";
 }
+
+@model Information
+
+<h1 class="bg-info text-black">Create Information</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <label asp-for="License"></label>
+        <input asp-for="License" class="form-control" />
+        <label asp-for="Established"></label>
+        <input asp-for="Established" class="form-control" />
+        <label asp-for="Revenue"></label>
+        <input asp-for="Revenue" class="form-control" />
+        
+    </div>
+    <button type="submit" class="btn btn-danger">Create</button>
+</form>
