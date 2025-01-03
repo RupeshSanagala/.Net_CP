@@ -1,0 +1,21 @@
+Steps to do Migration:
+-----------------------------
+
+code base approach:
+----------------------
+dotnet new tool-manifest --force
+
+dotnet tool install --local dotnet-ef
+
+dotnet ef
+
+dotnet ef migrations add CompanyDB
+ 
+dotnet ef database update
+
+After delete existing tables in database
+
+dotnet ef migrations add Migration1
+
+dotnet ef database update
+
