@@ -1,4 +1,4 @@
-namespace MyDemoApplication.Models
+namespace WebApiDemo.Models
 {
     public class ErrorViewModel
     {
