@@ -1,33 +1,16 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MyDemoApplication.Models;
+using WebApiDemo.Models;
 
-namespace MyDemoApplication.Controllers
+namespace WebApiDemo.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        private CompanyContext context;
-
-        public HomeController(ILogger<HomeController> logger, CompanyContext cc)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            context = cc;
-        }
-
-        public string createInformation()
-        {
-            var info = new Information()
-            {
-                Name = "ChangePond",
-                License = "234FGE234",
-                Revenue = 100000000,
-                Established = Convert.ToDateTime("01-01-2000")
-            };
-            context.Entry(info).State = Microsoft.EntityFrameworkCore.EntityState.Added;
-            context.SaveChanges();
-            return "Record Created Successfully";
         }
 
         public IActionResult Index()
